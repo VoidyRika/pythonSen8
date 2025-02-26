@@ -4,7 +4,7 @@ def Add(a, b):
     return a * b
 
 class TestMathAdd(unittest.TestCase):
-    def test_multiply(self):
+    def test_add(self):
         self.assertEqual(Add(2, 3), 6)
         self.assertEqual(Add(-1, 5), -5)
         self.assertEqual(Add(0, 100), 0)
